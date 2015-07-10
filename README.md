@@ -20,7 +20,7 @@ type.und(Person, 'future');
 
 Person.age = 12;  // valid and saves the value
 console.log(Person.age) // 12
-Person.age = "100" // not valid and throws an error
+Person.age = "100" // not valid and logs an error with a stacktrace
 console.log(Person.age) // still 12
 
 ````
